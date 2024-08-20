@@ -21,8 +21,7 @@ This project consists of a file upload and download application with three main 
 
 1. Clone the Repository
 
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/keerthireddytummalapelly/CacheSync.git
 
 2. Ensure Python is installed. The project uses standard libraries, so no additional packages are required.
 
@@ -30,34 +29,42 @@ cd <repository-directory>
 
 1. Starting the Server
 
-Command : python server.py <port> <protocol>
+Command : python server.py `<port>` `<protocol>`
 
-<port>: Port number on which the server will listen.
-<protocol>: Transport protocol (tcp or snw).
+`<port>`: Port number on which the server will listen.
+
+`<protocol>`: Transport protocol (tcp or snw).
 
 2. Starting the Cache
 
-Command : python cache.py <port> <server-ip> <server-port> <protocol>
+Command : python cache.py `<port>` `<server-ip>` `<server-port>` `<protocol>`
 
-<port>: Port number for the cache.
-<server-ip>: IP address of the server.
-<server-port>: Port number of the server.
-<protocol>: Transport protocol (tcp or snw).
+`<port>`: Port number for the cache. 
+
+`<server-ip>`: IP address of the server.
+
+`<server-port>`: Port number of the server.
+
+`<protocol>`: Transport protocol (tcp or snw).
 
 3. Starting the Client
 
-Command: python client.py <server-ip> <server-port> <cache-ip> <cache-port> <protocol>
+Command: python client.py `<server-ip>` `<server-port>` `<cache-ip>` `<cache-port>` `<protocol>`
 
-<server-ip>: IP address of the server.
-<server-port>: Port number of the server.
-<cache-ip>: IP address of the cache.
-<cache-port>: Port number of the cache.
-<protocol>: Transport protocol (tcp or snw).
+`<server-ip>`: IP address of the server. 
+
+`<server-port>`: Port number of the server. 
+
+`<cache-ip>`: IP address of the cache.
+
+`<cache-port>`: Port number of the cache.
+
+`<protocol>`: Transport protocol (tcp or snw).
 
 ### Commands
 
-1. Upload file - put <file>
-2. Download file - get <file>
+1. Upload file - put `<file>`
+2. Download file - get `<file>`
 3. Quit - quit
 
 ### Testing
