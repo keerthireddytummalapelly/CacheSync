@@ -1,4 +1,4 @@
-# CacheSync
+# Intelligent Caching and Reliable Data Transfer System - CacheSync
 
 ## Project Description
 
